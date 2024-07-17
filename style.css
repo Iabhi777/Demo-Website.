@@ -1,0 +1,340 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   border: border-box;
+}
+
+.nav-link {
+   color: #ff3147;
+}
+
+
+.parent {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-evenly;
+   margin-top: 30px;
+   padding-left: 170px;
+   padding-right: 170px
+}
+
+
+.col1 {
+   margin-top: 100px;
+   width: 560px;
+   height: 560px;
+
+}
+
+.col1 span {
+   font-size: 30px;
+   color: #ff3147;
+   font-family: poppins, sans-serif;
+}
+
+.col1 h1 {
+   font-size: 50px;
+   margin-top: 25px;
+   font-family: sans-serif;
+   color: black;
+   font-weight: bold;
+}
+
+.col1 p {
+   margin-top: 25px;
+   font-size: 16px;
+   font-family: 'Trebuchet MS';
+   color: black;
+   font-weight: 500;
+}
+
+#button {
+   margin-top: 24px;
+   padding: 14px 28px;
+   background-color: #ff3147;
+   color: white;
+   font-size: 16px;
+   border: 1px solid black;
+   border-radius: 2px;
+}
+
+.col2 {
+   max-width: 500px;
+   max-height: 600px;
+}
+
+.col2 img {
+   width: 100%;
+   height: 550px;
+   margin-bottom: 150px;
+}
+
+#wht-we-do {
+   background-color: #FAFAFA;
+   padding-left: 190px;
+   padding-right: 190px;
+   align-items: center;
+
+}
+
+.upper-div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
+   padding-top: 100px;
+
+}
+
+.first span {
+   font-size: 24px;
+   font-family: sans-serif;
+   color: #ff3147;
+   font-weight: 700;
+}
+
+.first h1 {
+   font-size: 45px;
+   color: black;
+   font-family: sans-serif;
+   margin-top: 30px;
+   font-weight: bold;
+}
+
+
+.second {
+   font-size: 16px;
+   font-family: sans-serif;
+   color: black;
+   padding-left: 5rem;
+   font-weight: 700;
+}
+
+
+#lower-div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-evenly;
+   margin-top: 30px;
+}
+
+#lower-div .card {
+   border-radius: 15px;
+   margin-inline: 8px;
+}
+
+#dots {
+   display: flex;
+   margin-top: 8px;
+   border: none;
+   border-radius: 0;
+}
+
+#pink-dot {
+   margin-left: 0.5rem;
+   border-radius: 0;
+   cursor: pointer;
+}
+
+#black-dot1 {
+   margin-left: 1.5rem;
+   border: none;
+   margin-top: 0.7rem;
+   cursor: pointer;
+}
+
+#black-dot2 {
+   margin-left: 1.5rem;
+   border-radius: none;
+   margin-top: 0.7rem;
+   cursor: pointer;
+}
+
+#whyChooseUsDiv {
+   padding-top: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#headings span {
+   display: flex;
+   justify-content: center;
+   font-size: 24px;
+   font-family: sans-serif;
+   color: #ff3147;
+   font-weight: 600;
+}
+
+#headings h1 {
+   font-size: 45px;
+   font-family: sans-serif;
+   color: black;
+   margin-top: 25px;
+   font-weight: bold;
+}
+
+#whyChooseUsDiv-2 {
+   display: flex;
+   justify-content: space-evenly;
+   margin-left: 170px;
+   margin-right: 170px;
+   padding-top: 50px;
+}
+
+#whyChooseUsDiv-2 h3 {
+   font-size: 19px;
+   color: black;
+   font-family: sans-serif;
+   font-weight: bold;
+}
+
+#whyChooseUsDiv-2 p {
+   font-size: 16px;
+   color: black;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#whyChooseUsDiv-2 img {
+   padding-bottom: 10px;
+}
+
+#OurProjectDiv {
+   padding-top: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #f4f4f4;
+}
+
+#OurProjectDiv span {
+   display: flex;
+   justify-content: center;
+   font-size: 24px;
+   font-family: sans-serif;
+   color: #ff3147;
+   font-weight: 600;
+}
+
+#OurProjectDiv-heads h1 {
+   font-size: 45px;
+   margin-top: 25px;
+   font-weight: bold;
+}
+
+#cards-div {
+   display: flex;
+   justify-content: space-evenly;
+   padding-left: 170px;
+   padding-right: 170px;
+   background-color: #f4f4f4;
+   padding-top: 40px;
+   padding-bottom: 100px;
+}
+
+.card-body {
+   padding: 33px 31px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+
+
+.card-body h1 {
+   font-size: 60px;
+   font-family: 'Poppins';
+   color: black;
+   margin-top: 10px;
+}
+
+.card-body p {
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   color: black;
+}
+
+.card {
+   margin-inline: 20px;
+   border-radius: 0px;
+   background-color: white;
+}
+
+.card:hover {
+   background-color: #f4f4f4;
+   box-shadow: 9px 13px 40px 3px rgba(0, 0, 0, 0.2);
+   transition: 0.2s;
+   cursor: pointer;
+}
+
+#feedbackDiv {
+   padding-top: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+}
+
+#feedbackDiv span {
+   display: flex;
+   justify-content: center;
+   font-size: 24px;
+   font-family: sans-serif;
+   color: #ff3147;
+   font-weight: 600;
+}
+
+#feedbackDiv-head h1 {
+   font-size: 45px;
+   margin-top: 25px;
+   font-weight: bold;
+   color: black;
+}
+
+.feedbackDiv-2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 170px;
+   margin-right: 170px;
+   margin-bottom: 100px;
+}
+
+.para-div {
+   background-image: url(assets/Quotemarks-left.svg);
+   background-repeat: no-repeat;
+}
+
+.feedbackDiv-2 h3 {
+   font-size: 20px;
+   margin-bottom: 20px;
+   font-family: sans-serif;
+   padding-left: 35px;
+   padding-top: 25px;
+
+}
+
+.s1 {
+   font-size: 20px;
+   color: #ff3147;
+   font-weight: 600;
+   font-family: sans-serif;
+   padding-left: 28px;
+}
+
+.s2 {
+   font-size: 20px;
+   color: #808080;
+}
+
+#foot {
+   background-color: #ff3147;
+   width: 100%;
+   height: 234px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
